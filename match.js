@@ -1,4 +1,3 @@
-
 // c 	Matches any literal character c
 // .	Matches any single character
 // ^	Matches the beginning of the input string
@@ -29,7 +28,7 @@ var match = function(regexp, text){
 
 // Tests
 
-console.log(match("abcd", "abcd"));			// True
+console.log(match("abcd", "abcd"));		// True
 console.log(match("abcd", "zabcdz"));		// True
 console.log(match("^abcd", "abcdef"));		// True
 console.log(match("^abcd", "zabcdef"));		// False
