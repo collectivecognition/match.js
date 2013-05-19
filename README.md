@@ -1,4 +1,4 @@
-match.jsh
+match.js
 ========
 
 A reimplementation of Rob Pike's simplified regular expression matcher from (Beautiful Code)[http://shop.oreilly.com/product/9780596510046.do] by O'Reilly Media (a great book, by the way) in Javascript.
